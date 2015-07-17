@@ -15,7 +15,7 @@
 # Copyright 2015 Josh Baird
 #
 class tomcat(
-  $tomcat_maj_version  = $tomcat::params::tomcat_version,
+  $tomcat_maj_version  = $tomcat::params::tomcat_maj_version,
   $install_type        = $tomcat::params::install_type,
   $package             = $tomcat::params::package,
   $package_version     = $tomcat::params::package_version,
